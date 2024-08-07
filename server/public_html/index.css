@@ -1,0 +1,26 @@
+
+.headerBox{
+    background-color: burlywood;
+    height: 100px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.tableClass{
+    border-collapse: collapse; 
+    width: 100%;
+    text-align: center;
+   
+    background-color: gray;
+}
+
+.selectClass{
+    font-size: 40px;
+}
+
+.textareaClass{
+    font-size: 40px;
+    font-weight: bold;
+}

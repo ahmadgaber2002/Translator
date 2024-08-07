@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>      
+        
+		<title>Translator</title>
+		<link rel="stylesheet" type="text/css" href="./index.css">
+		<script src= "index.js" ></script>
+	</head>
+	
+		<body>
+			<div id="navigation">
+				<div class = "headerBox" >			 
+					<label >Translator</label>
+				</div>
+			</div>
+
+            <table  border="1" class="tableClass">
+                <tbody>
+                <tr>
+                    <td style="width: 50%;">
+                        <select class="selectClass" name="fromLang" id="fromLang" onchange="onChangeListener()">
+                            <option value="e">English</option>
+                            <option value="s">Spanish</option>
+                            <option value="g">German</option>
+                        </select>
+                    </td>
+                    <td style="width: 50%;">
+                        <select class="selectClass" name="toLang" id="toLang" onchange="onChangeListener()">
+                            <option value="g">German</option>
+                            <option value="e">English</option>
+                            <option value="s">Spanish</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 50%;">
+                        <textarea id="fromWords" name="fromWords" rows="4" cols="20" class="textareaClass" oninput="onChangeListener()"></textarea>
+                    </td>
+                    <td style="width: 50%;">
+                        <textarea id="toWords" name="toWords" rows="4" cols="20" class="textareaClass"></textarea>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+		</body>
+</html>
